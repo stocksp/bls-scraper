@@ -6,7 +6,6 @@ const mg = require("nodemailer-mailgun-transport");
 const _ = require("lodash");
 const iconvlite = require("iconv-lite");
 const moment = require("moment");
-const extend = require("node.extend");
 const utils = require("./utils");
 
 const About = require("./about");
@@ -36,7 +35,7 @@ const auth = {
     domain: domain
   }
 };
-const meOnly = true;
+const meOnly = false;
 const mail = true;
 console.log("loading scraper");
 const nodemailerMailgun = nodemailer.createTransport(mg(auth));
