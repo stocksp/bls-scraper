@@ -1,0 +1,25 @@
+{
+  "name": "scrape-express",
+  "version": "2.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Paul Stocks <paul.stocks@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "archiver": "^1.1.0",
+    "dotenv": "^6.2.0",
+    "fs-extra": "^0.30.0",
+    "iconv-lite": "^0.4.13",
+    "lodash": "^4.13.1",
+    "moment": "^2.13.0",
+    "mongodb": "^3.1.12",
+    "node.extend": "^1.1.5",
+    "nodemailer": "^5.1.1",
+    "nodemailer-mailgun-transport": "^1.4.0"
+  },
+  "main": "app.js",
+  "repository": "git@gitlab.com:stocksp/scraper-node.git"
+}
